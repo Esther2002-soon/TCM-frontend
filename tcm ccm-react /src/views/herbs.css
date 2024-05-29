@@ -1,0 +1,900 @@
+.herbs-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  background-color: #D9D9D9;
+}
+.herbs-navbar {
+  width: 100%;
+  display: flex;
+  position: relative;
+  max-width: 1440px;
+  align-items: center;
+  padding-top: var(--dl-space-space-threeunits);
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: var(--dl-space-space-threeunits);
+  justify-content: space-between;
+}
+.herbs-navlink {
+  color: #000000;
+  font-size: 1.6rem;
+  text-decoration: none;
+}
+.herbs-pasted-image {
+  height: 50px;
+}
+.herbs-hero {
+  width: 100%;
+  height: 590vh;
+  display: flex;
+  overflow: auto;
+  align-items: center;
+  flex-direction: column;
+}
+.herbs-chuan {
+  width: 100%;
+  align-items: center;
+  padding-top: 120px;
+  padding-left: var(--dl-space-space-fiveunits);
+  padding-right: var(--dl-space-space-fiveunits);
+  flex-direction: column;
+  padding-bottom: 120px;
+  background-color: #F8F0E9;
+}
+.herbs-details {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.herbs-herbs {
+  gap: var(--dl-space-space-twounits);
+  width: 80%;
+  height: 292px;
+  display: flex;
+  align-items: center;
+  padding-left: 200px;
+  flex-direction: row;
+}
+.herbs-quote {
+  color: rgb(53, 43, 42);
+  width: 100%;
+  font-size: 40px;
+  font-style: italic;
+  font-family: "Cormorant Infant";
+  font-weight: 600;
+  line-height: 48px;
+  padding-left: 200px;
+}
+.herbs-text {
+  color: #352b2a;
+  font-size: 40px;
+  font-style: italic;
+  font-family: "Cormorant Infant";
+  font-weight: 600;
+  line-height: 48px;
+}
+.herbs-text001 {
+  color: #352b2a;
+  font-size: 40px;
+  font-style: italic;
+  font-family: "Cormorant Infant";
+  font-weight: 600;
+  line-height: 48px;
+}
+.herbs-jie {
+  width: 100%;
+  align-items: center;
+  padding-top: 120px;
+  padding-left: var(--dl-space-space-fiveunits);
+  padding-right: var(--dl-space-space-fiveunits);
+  flex-direction: column;
+  padding-bottom: 120px;
+  background-color: #e4e2c3;
+}
+.herbs-details01 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.herbs-quote01 {
+  color: rgb(53, 43, 42);
+  width: 100%;
+  font-size: 40px;
+  font-style: italic;
+  font-family: "Cormorant Infant";
+  font-weight: 600;
+  line-height: 48px;
+  padding-left: 200px;
+}
+.herbs-text012 {
+  color: #352b2a;
+  font-size: 40px;
+  font-style: italic;
+  font-family: "Cormorant Infant";
+  font-weight: 600;
+  line-height: 48px;
+}
+.herbs-text015 {
+  color: #352b2a;
+  font-size: 40px;
+  font-style: italic;
+  font-family: "Cormorant Infant";
+  font-weight: 600;
+  line-height: 48px;
+}
+.herbs-text017 {
+  color: #352b2a;
+  font-size: 40px;
+  font-style: italic;
+  font-family: "Cormorant Infant";
+  font-weight: 600;
+  line-height: 48px;
+}
+.herbs-herbs01 {
+  gap: var(--dl-space-space-twounits);
+  width: 80%;
+  height: 292px;
+  display: flex;
+  align-items: center;
+  padding-right: 200px;
+  flex-direction: row;
+}
+.herbs-pasted-image02 {
+  width: 440px;
+  height: 416px;
+}
+.herbs-mudan {
+  width: 100%;
+  align-items: center;
+  padding-top: 120px;
+  padding-left: var(--dl-space-space-fiveunits);
+  padding-right: var(--dl-space-space-fiveunits);
+  flex-direction: column;
+  padding-bottom: 120px;
+  background-color: #F8F0E9;
+}
+.herbs-details02 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.herbs-herbs02 {
+  gap: var(--dl-space-space-twounits);
+  width: 80%;
+  height: 292px;
+  display: flex;
+  align-items: center;
+  padding-left: 200px;
+  flex-direction: row;
+}
+.herbs-pasted-image03 {
+  width: 525px;
+  height: 454px;
+}
+.herbs-quote02 {
+  color: rgb(53, 43, 42);
+  width: 100%;
+  font-size: 40px;
+  font-style: italic;
+  font-family: "Cormorant Infant";
+  font-weight: 600;
+  line-height: 48px;
+  padding-left: 200px;
+}
+.herbs-text024 {
+  color: #352b2a;
+  font-size: 40px;
+  font-style: italic;
+  font-family: "Cormorant Infant";
+  font-weight: 600;
+  line-height: 48px;
+}
+.herbs-text029 {
+  color: #352b2a;
+  font-size: 40px;
+  font-style: italic;
+  font-family: "Cormorant Infant";
+  font-weight: 600;
+  line-height: 48px;
+}
+.herbs-gan {
+  width: 100%;
+  align-items: center;
+  padding-top: 120px;
+  padding-left: var(--dl-space-space-fiveunits);
+  padding-right: var(--dl-space-space-fiveunits);
+  flex-direction: column;
+  padding-bottom: 120px;
+  background-color: #e4e2c3;
+}
+.herbs-details03 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.herbs-quote03 {
+  color: rgb(53, 43, 42);
+  width: 100%;
+  font-size: 40px;
+  font-style: italic;
+  font-family: "Cormorant Infant";
+  font-weight: 600;
+  line-height: 48px;
+  padding-left: 200px;
+}
+.herbs-herbs03 {
+  gap: var(--dl-space-space-twounits);
+  width: 80%;
+  height: 292px;
+  display: flex;
+  align-items: center;
+  padding-right: 200px;
+  flex-direction: row;
+}
+.herbs-pasted-image04 {
+  width: 539px;
+  height: 487px;
+}
+.herbs-dang {
+  width: 100%;
+  align-items: center;
+  padding-top: 120px;
+  padding-left: var(--dl-space-space-fiveunits);
+  padding-right: var(--dl-space-space-fiveunits);
+  flex-direction: column;
+  padding-bottom: 120px;
+  background-color: #F8F0E9;
+}
+.herbs-details04 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.herbs-herbs04 {
+  gap: var(--dl-space-space-twounits);
+  width: 80%;
+  height: 292px;
+  display: flex;
+  align-items: center;
+  padding-left: 200px;
+  flex-direction: row;
+}
+.herbs-quote04 {
+  color: rgb(53, 43, 42);
+  width: 100%;
+  font-size: 40px;
+  font-style: italic;
+  font-family: "Cormorant Infant";
+  font-weight: 600;
+  line-height: 48px;
+  padding-left: 200px;
+}
+.herbs-text047 {
+  color: #352b2a;
+  font-size: 40px;
+  font-style: italic;
+  font-family: "Cormorant Infant";
+  font-weight: 600;
+  line-height: 48px;
+}
+.herbs-text052 {
+  color: #352b2a;
+  font-size: 40px;
+  font-style: italic;
+  font-family: "Cormorant Infant";
+  font-weight: 600;
+  line-height: 48px;
+}
+.herbs-baishu {
+  width: 100%;
+  align-items: center;
+  padding-top: 120px;
+  padding-left: var(--dl-space-space-fiveunits);
+  padding-right: var(--dl-space-space-fiveunits);
+  flex-direction: column;
+  padding-bottom: 120px;
+  background-color: #e4e2c3;
+}
+.herbs-details05 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.herbs-quote05 {
+  color: rgb(53, 43, 42);
+  width: 100%;
+  font-size: 40px;
+  font-style: italic;
+  font-family: "Cormorant Infant";
+  font-weight: 600;
+  line-height: 48px;
+  padding-left: 200px;
+}
+.herbs-text058 {
+  color: #352b2a;
+  font-size: 40px;
+  font-style: italic;
+  font-family: "Cormorant Infant";
+  font-weight: 600;
+  line-height: 48px;
+}
+.herbs-text063 {
+  color: #352b2a;
+  font-size: 40px;
+  font-style: italic;
+  font-family: "Cormorant Infant";
+  font-weight: 600;
+  line-height: 48px;
+}
+.herbs-herbs05 {
+  gap: var(--dl-space-space-twounits);
+  width: 80%;
+  height: 292px;
+  display: flex;
+  align-items: center;
+  padding-right: 200px;
+  flex-direction: row;
+}
+.herbs-pasted-image06 {
+  width: 559px;
+  height: 433px;
+}
+.herbs-baibu {
+  width: 100%;
+  align-items: center;
+  padding-top: 120px;
+  padding-left: var(--dl-space-space-fiveunits);
+  padding-right: var(--dl-space-space-fiveunits);
+  flex-direction: column;
+  padding-bottom: 120px;
+  background-color: #F8F0E9;
+}
+.herbs-details06 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.herbs-herbs06 {
+  gap: var(--dl-space-space-twounits);
+  width: 80%;
+  height: 292px;
+  display: flex;
+  align-items: center;
+  padding-left: 200px;
+  flex-direction: row;
+}
+.herbs-pasted-image07 {
+  width: 609px;
+  height: 549px;
+}
+.herbs-quote06 {
+  color: rgb(53, 43, 42);
+  width: 100%;
+  font-size: 40px;
+  font-style: italic;
+  font-family: "Cormorant Infant";
+  font-weight: 600;
+  line-height: 48px;
+  padding-left: 200px;
+}
+.herbs-text070 {
+  color: #352b2a;
+  font-size: 40px;
+  font-style: italic;
+  font-family: "Cormorant Infant";
+  font-weight: 600;
+  line-height: 48px;
+}
+.herbs-text075 {
+  color: #352b2a;
+  font-size: 40px;
+  font-style: italic;
+  font-family: "Cormorant Infant";
+  font-weight: 600;
+  line-height: 48px;
+}
+.herbs-bohe {
+  width: 100%;
+  align-items: center;
+  padding-top: 120px;
+  padding-left: var(--dl-space-space-fiveunits);
+  padding-right: var(--dl-space-space-fiveunits);
+  flex-direction: column;
+  padding-bottom: 120px;
+  background-color: #e4e2c3;
+}
+.herbs-details07 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.herbs-quote07 {
+  color: rgb(53, 43, 42);
+  width: 100%;
+  font-size: 40px;
+  font-style: italic;
+  font-family: "Cormorant Infant";
+  font-weight: 600;
+  line-height: 48px;
+  padding-left: 200px;
+}
+.herbs-text081 {
+  color: #352b2a;
+  font-size: 40px;
+  font-style: italic;
+  font-family: "Cormorant Infant";
+  font-weight: 600;
+  line-height: 48px;
+}
+.herbs-text086 {
+  color: #352b2a;
+  font-size: 40px;
+  font-style: italic;
+  font-family: "Cormorant Infant";
+  font-weight: 600;
+  line-height: 48px;
+}
+.herbs-herbs07 {
+  gap: var(--dl-space-space-twounits);
+  width: 80%;
+  height: 292px;
+  display: flex;
+  align-items: center;
+  padding-right: 200px;
+  flex-direction: row;
+}
+.herbs-pasted-image08 {
+  width: 632px;
+  height: 464px;
+}
+.herbs-fang {
+  width: 100%;
+  align-items: center;
+  padding-top: 120px;
+  padding-left: var(--dl-space-space-fiveunits);
+  padding-right: var(--dl-space-space-fiveunits);
+  flex-direction: column;
+  padding-bottom: 120px;
+  background-color: #F8F0E9;
+}
+.herbs-details08 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.herbs-herbs08 {
+  gap: var(--dl-space-space-twounits);
+  width: 80%;
+  height: 292px;
+  display: flex;
+  align-items: center;
+  padding-left: 200px;
+  flex-direction: row;
+}
+.herbs-pasted-image09 {
+  width: 563px;
+  height: 503px;
+}
+.herbs-quote08 {
+  color: rgb(53, 43, 42);
+  width: 100%;
+  font-size: 40px;
+  font-style: italic;
+  font-family: "Cormorant Infant";
+  font-weight: 600;
+  line-height: 48px;
+  padding-left: 200px;
+}
+.herbs-text093 {
+  color: #352b2a;
+  font-size: 40px;
+  font-style: italic;
+  font-family: "Cormorant Infant";
+  font-weight: 600;
+  line-height: 48px;
+}
+.herbs-text098 {
+  color: #352b2a;
+  font-size: 40px;
+  font-style: italic;
+  font-family: "Cormorant Infant";
+  font-weight: 600;
+  line-height: 48px;
+}
+.herbs-chen {
+  width: 100%;
+  align-items: center;
+  padding-top: 120px;
+  padding-left: var(--dl-space-space-fiveunits);
+  padding-right: var(--dl-space-space-fiveunits);
+  flex-direction: column;
+  padding-bottom: 120px;
+  background-color: #e4e2c3;
+}
+.herbs-details09 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.herbs-quote09 {
+  color: rgb(53, 43, 42);
+  width: 100%;
+  font-size: 40px;
+  font-style: italic;
+  font-family: "Cormorant Infant";
+  font-weight: 600;
+  line-height: 48px;
+  padding-left: 200px;
+}
+.herbs-text104 {
+  color: #352b2a;
+  font-size: 40px;
+  font-style: italic;
+  font-family: "Cormorant Infant";
+  font-weight: 600;
+  line-height: 48px;
+}
+.herbs-text109 {
+  color: #352b2a;
+  font-size: 40px;
+  font-style: italic;
+  font-family: "Cormorant Infant";
+  font-weight: 600;
+  line-height: 48px;
+}
+.herbs-herbs09 {
+  gap: var(--dl-space-space-twounits);
+  width: 80%;
+  height: 292px;
+  display: flex;
+  align-items: center;
+  padding-right: 200px;
+  flex-direction: row;
+}
+@media(max-width: 991px) {
+  .herbs-chuan {
+    padding-top: var(--dl-space-space-fourunits);
+    padding-bottom: var(--dl-space-space-fourunits);
+  }
+  .herbs-jie {
+    padding-top: var(--dl-space-space-fourunits);
+    padding-bottom: var(--dl-space-space-fourunits);
+  }
+  .herbs-mudan {
+    padding-top: var(--dl-space-space-fourunits);
+    padding-bottom: var(--dl-space-space-fourunits);
+  }
+  .herbs-gan {
+    padding-top: var(--dl-space-space-fourunits);
+    padding-bottom: var(--dl-space-space-fourunits);
+  }
+  .herbs-dang {
+    padding-top: var(--dl-space-space-fourunits);
+    padding-bottom: var(--dl-space-space-fourunits);
+  }
+  .herbs-baishu {
+    padding-top: var(--dl-space-space-fourunits);
+    padding-bottom: var(--dl-space-space-fourunits);
+  }
+  .herbs-baibu {
+    padding-top: var(--dl-space-space-fourunits);
+    padding-bottom: var(--dl-space-space-fourunits);
+  }
+  .herbs-bohe {
+    padding-top: var(--dl-space-space-fourunits);
+    padding-bottom: var(--dl-space-space-fourunits);
+  }
+  .herbs-fang {
+    padding-top: var(--dl-space-space-fourunits);
+    padding-bottom: var(--dl-space-space-fourunits);
+  }
+  .herbs-chen {
+    padding-top: var(--dl-space-space-fourunits);
+    padding-bottom: var(--dl-space-space-fourunits);
+  }
+}
+@media(max-width: 767px) {
+  .herbs-navbar {
+    padding-top: var(--dl-space-space-twounits);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .herbs-chuan {
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+  }
+  .herbs-details {
+    gap: var(--dl-space-space-threeunits);
+    flex-direction: column;
+    justify-content: center;
+  }
+  .herbs-herbs {
+    gap: var(--dl-space-space-unit);
+    height: 10%;
+    flex-direction: column;
+  }
+  .herbs-quote {
+    font-size: 24px;
+    text-align: center;
+    line-height: 28px;
+  }
+  .herbs-text002 {
+    font-size: 24px;
+    text-align: center;
+    line-height: 28px;
+  }
+  .herbs-text003 {
+    font-size: 24px;
+    text-align: center;
+    line-height: 28px;
+  }
+  .herbs-text004 {
+    font-size: 24px;
+    text-align: center;
+    line-height: 28px;
+  }
+  .herbs-text005 {
+    font-size: 24px;
+    text-align: center;
+    line-height: 28px;
+  }
+  .herbs-text006 {
+    font-size: 24px;
+    text-align: center;
+    line-height: 28px;
+  }
+  .herbs-text007 {
+    font-size: 24px;
+    text-align: center;
+    line-height: 28px;
+  }
+  .herbs-text008 {
+    font-size: 24px;
+    text-align: center;
+    line-height: 28px;
+  }
+  .herbs-text009 {
+    font-size: 24px;
+    text-align: center;
+    line-height: 28px;
+  }
+  .herbs-text010 {
+    font-size: 24px;
+    text-align: center;
+    line-height: 28px;
+  }
+  .herbs-jie {
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+  }
+  .herbs-details01 {
+    gap: var(--dl-space-space-threeunits);
+    flex-direction: column;
+    justify-content: center;
+  }
+  .herbs-quote01 {
+    font-size: 24px;
+    text-align: center;
+    line-height: 28px;
+  }
+  .herbs-text013 {
+    font-size: 24px;
+    text-align: center;
+    line-height: 28px;
+  }
+  .herbs-text018 {
+    font-size: 24px;
+    text-align: center;
+    line-height: 28px;
+  }
+  .herbs-text020 {
+    font-size: 24px;
+    text-align: center;
+    line-height: 28px;
+  }
+  .herbs-herbs01 {
+    gap: var(--dl-space-space-unit);
+    height: 10%;
+    flex-direction: column;
+  }
+  .herbs-mudan {
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+  }
+  .herbs-details02 {
+    gap: var(--dl-space-space-threeunits);
+    flex-direction: column;
+    justify-content: center;
+  }
+  .herbs-herbs02 {
+    gap: var(--dl-space-space-unit);
+    height: 10%;
+    flex-direction: column;
+  }
+  .herbs-quote02 {
+    font-size: 24px;
+    text-align: center;
+    line-height: 28px;
+  }
+  .herbs-text025 {
+    font-size: 24px;
+    text-align: center;
+    line-height: 28px;
+  }
+  .herbs-text027 {
+    font-size: 24px;
+    text-align: center;
+    line-height: 28px;
+  }
+  .herbs-text030 {
+    font-size: 24px;
+    text-align: center;
+    line-height: 28px;
+  }
+  .herbs-text032 {
+    font-size: 24px;
+    text-align: center;
+    line-height: 28px;
+  }
+  .herbs-gan {
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+  }
+  .herbs-details03 {
+    gap: var(--dl-space-space-threeunits);
+    flex-direction: column;
+    justify-content: center;
+  }
+  .herbs-quote03 {
+    font-size: 24px;
+    text-align: center;
+    line-height: 28px;
+  }
+  .herbs-herbs03 {
+    gap: var(--dl-space-space-unit);
+    height: 10%;
+    flex-direction: column;
+  }
+  .herbs-dang {
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+  }
+  .herbs-details04 {
+    gap: var(--dl-space-space-threeunits);
+    flex-direction: column;
+    justify-content: center;
+  }
+  .herbs-herbs04 {
+    gap: var(--dl-space-space-unit);
+    height: 10%;
+    flex-direction: column;
+  }
+  .herbs-quote04 {
+    font-size: 24px;
+    text-align: center;
+    line-height: 28px;
+  }
+  .herbs-baishu {
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+  }
+  .herbs-details05 {
+    gap: var(--dl-space-space-threeunits);
+    flex-direction: column;
+    justify-content: center;
+  }
+  .herbs-quote05 {
+    font-size: 24px;
+    text-align: center;
+    line-height: 28px;
+  }
+  .herbs-herbs05 {
+    gap: var(--dl-space-space-unit);
+    height: 10%;
+    flex-direction: column;
+  }
+  .herbs-baibu {
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+  }
+  .herbs-details06 {
+    gap: var(--dl-space-space-threeunits);
+    flex-direction: column;
+    justify-content: center;
+  }
+  .herbs-herbs06 {
+    gap: var(--dl-space-space-unit);
+    height: 10%;
+    flex-direction: column;
+  }
+  .herbs-quote06 {
+    font-size: 24px;
+    text-align: center;
+    line-height: 28px;
+  }
+  .herbs-bohe {
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+  }
+  .herbs-details07 {
+    gap: var(--dl-space-space-threeunits);
+    flex-direction: column;
+    justify-content: center;
+  }
+  .herbs-quote07 {
+    font-size: 24px;
+    text-align: center;
+    line-height: 28px;
+  }
+  .herbs-herbs07 {
+    gap: var(--dl-space-space-unit);
+    height: 10%;
+    flex-direction: column;
+  }
+  .herbs-fang {
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+  }
+  .herbs-details08 {
+    gap: var(--dl-space-space-threeunits);
+    flex-direction: column;
+    justify-content: center;
+  }
+  .herbs-herbs08 {
+    gap: var(--dl-space-space-unit);
+    height: 10%;
+    flex-direction: column;
+  }
+  .herbs-quote08 {
+    font-size: 24px;
+    text-align: center;
+    line-height: 28px;
+  }
+  .herbs-chen {
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+  }
+  .herbs-details09 {
+    gap: var(--dl-space-space-threeunits);
+    flex-direction: column;
+    justify-content: center;
+  }
+  .herbs-quote09 {
+    font-size: 24px;
+    text-align: center;
+    line-height: 28px;
+  }
+  .herbs-herbs09 {
+    gap: var(--dl-space-space-unit);
+    height: 10%;
+    flex-direction: column;
+  }
+}
+@media(max-width: 479px) {
+  .herbs-navbar {
+    padding: var(--dl-space-space-unit);
+  }
+}
