@@ -77,11 +77,17 @@ const Home = (props) => {
                     <span className="home-text02">
                       <span className="home-text03">Contacts:</span>
                       <br></br>
-                      <span>member 1</span>
+                      <span>
+                      程郁翔 f74096386@gs.ncku.edu.tw
+                      </span>
                       <br></br>
-                      <span>member 2</span>
+                      <span>
+                      陳柏淮 f74116275@gs.ncku.edu.tw
+                      </span>
                       <br></br>
-                      <span>member 3</span>
+                      <span>
+                      孫以瑭 esthersoon2002@gmail.com
+                      </span>
                       <br></br>
                     </span>
                   </nav>

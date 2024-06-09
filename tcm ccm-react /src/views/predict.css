@@ -19,6 +19,7 @@
   padding-bottom: var(--dl-space-space-threeunits);
   justify-content: space-between;
 }
+
 .predict-navlink {
   color: #000000;
   font-size: 1.6rem;
@@ -141,6 +142,20 @@
   border-radius: 50px;
   justify-content: center;
 }
+.result{
+  color: rgb(53, 43, 42);
+  width: 100%;
+  font-size: 6vh;
+  font-style: italic;
+  font-family: "Cormorant Infant";
+  font-weight: 600;
+  line-height: 48px;
+  padding-left: 200px;
+  line-height: 10vh;
+  text-align: center;
+  z-index: 100;
+  padding-right: 10%;
+}
 .predict-text06 {
   color: rgb(255, 255, 255);
   z-index: 100;
@@ -168,7 +183,7 @@
   font-size: 1.7rem;
   text-align: center;
   transition: 0.3s;
-  padding-top: 20px;
+  padding-top: 12px;
   padding-left: var(--dl-space-space-oneandhalfunits);
   border-radius: 500px;
   padding-right: var(--dl-space-space-oneandhalfunits);
@@ -194,6 +209,7 @@
 }
 .predict-chuan {
   width: 100%;
+  height: 200vh;
   align-items: center;
   padding-top: 120px;
   padding-left: var(--dl-space-space-fiveunits);
@@ -405,8 +421,8 @@
   flex-direction: row;
 }
 .predict-pasted-image4 {
-  width: 500px;
-  height: 350px;
+  width: 632px;
+  height: 464px;
 }
 @media(max-width: 991px) {
   .predict-chuan {
