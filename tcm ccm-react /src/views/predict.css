@@ -209,7 +209,7 @@
 }
 .predict-chuan {
   width: 100%;
-  height: 200vh;
+  height: 250vh;
   align-items: center;
   padding-top: 120px;
   padding-left: var(--dl-space-space-fiveunits);

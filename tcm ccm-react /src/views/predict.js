@@ -39,29 +39,35 @@ const Predict = (props) => {
     }
   };
 
-  const formatResult = (result) => {
-    if (!result || result.error) {
-      return <div className="error">Upload failed! Error: {result?.error}</div>;
-    }
+    const formatResult = (result) => {
+      if (!result || result.error) {
+        return <div className="error">Upload failed! Error: {result?.error}</div>;
+      }
 
-    const formattedResult = [];
-    const predictions = result.result.slice(0, 3);
-    const medicines = result.result.slice(3);
+      const formattedResult = [];
+      const predictions = result.result.slice(0, 3);
+      const medicines = result.result.slice(3);
+      const labels = ['薄荷', '川芎', '牡丹皮', '未知'];
 
-    predictions.forEach((prediction, index) => {
-      formattedResult.push(
-        <div key={index}>
-          <p>Medicine {index + 1}:</p>
-          <h1>{medicines[index]}</h1>
-          <p>Confusion Matrix:</p>
-          <p>{prediction.join(',\n')}</p>
-          <br></br>
-        </div>
-      );
-    });
+      predictions.forEach((prediction, index) => {
+        const confidenceScores = prediction.map((score, idx) => (
+          <div key={idx}>{`${labels[idx]}: ${(score * 100).toFixed(2)}%`}</div>
+        ));
 
-    return formattedResult;
-  };
+        formattedResult.push(
+          <div key={index} className="medicine-result">
+            <p>Medicine {index + 1}:</p>
+            <h1>{medicines[index]}</h1>
+            <p>Confidence score:</p>
+            <div className="confidence-scores">{confidenceScores}</div>
+            <br />
+          </div>
+        );
+      });
+
+      return formattedResult;
+    };
+
 
   return (
     <div className="predict-container">
